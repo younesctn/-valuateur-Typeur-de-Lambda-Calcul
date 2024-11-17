@@ -1,0 +1,14 @@
+(test
+ (name test_eval)
+ (flags (:standard -w -a))
+ (libraries lib))
+
+(test
+ (name test_type)
+ (flags (:standard -w -a))
+ (libraries lib))
+
+(test
+ (name test_eval_4)
+ (flags (:standard -w -a))
+ (libraries lib))
